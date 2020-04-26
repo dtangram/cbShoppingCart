@@ -1,26 +1,16 @@
 {
   "development": {
-    "username": "angramd",
+    "username": "douglast.angram",
     "password": null,
-    "database": "mcb_development",
-    "host": "127.0.0.1",
-    "dialect": "postgres",
-    "operatorsAliases": false
-  },
-  "test": {
-    "username": "angramd",
-    "password": null,
-    "database": "mcb_test",
+    "database": "cbshoppingcart_development",
     "host": "127.0.0.1",
     "dialect": "postgres",
     "operatorsAliases": false
   },
   "production": {
-    "username": "angramd",
-    "password": null,
-    "database": "mcb_production",
-    "host": "127.0.0.1",
-    "dialect": "postgres",
-    "operatorsAliases": false
+    "use_env_variable": "DATABASE_URL"
+  },
+  "staging": {
+    "use_env_variable": "DATABASE_URL"
   }
 }
