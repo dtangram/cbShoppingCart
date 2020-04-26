@@ -1,0 +1,33 @@
+{
+  "name": "wd6-cart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-reactjs": "npm install --prefix wd6-motoshop",
+    "install-api": "npm install --prefix api",
+    "build-reactjs": "npm run build --prefix wd6-motoshop",
+    "build-api": "npm run --prefix api",
+    "heroku-postbuild": "concurrently \"npm:install-*\"; concurrently \"npm:build-*\";"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtangram/cbShoppingCart.git"
+  },
+  "author": "Douglas T. Angram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dtangram/cbShoppingCart/issues"
+  },
+  "homepage": "https://github.com/dtangram/cbShoppingCart#readme",
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "body-parser": "^1.19.0",
+    "debug": "^4.1.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-react-app": "^6.2.2"
+  }
+}
