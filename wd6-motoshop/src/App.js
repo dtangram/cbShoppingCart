@@ -9,7 +9,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import MotoShopMenu from './components/MotoShopMenu'
 import Home from './components/Home'
 import motoCart from './components/motoCart'
-import Signup from './components/signup'
+// import Signup from './components/signup'
 
 class App extends Component {
   render() {
@@ -21,7 +21,9 @@ class App extends Component {
               <Switch>
                     <Route exact path="/" component={Home}/>
                     <Route exact path="/motoCart" component={motoCart}/>
-                    <Route exact path="/signup" component={Signup}/>
+                    {
+                      // <Route exact path="/signup" component={Signup}/>
+                    }
                   </Switch>
              </div>
        </BrowserRouter>
