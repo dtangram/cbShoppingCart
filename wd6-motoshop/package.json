@@ -1,6 +1,6 @@
 {
-  "developer/author": "Fialishia OLoughlin - Fia's Motoshop 2019",
-  "name": "wd6-motoshop",
+  "developer/author": "Douglas T. Angram",
+  "name": "cbshoppingcart",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
