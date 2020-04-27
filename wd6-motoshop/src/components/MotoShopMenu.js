@@ -21,14 +21,18 @@ const motoshopMenu = () => {
               <li><Link to="/">Browse</Link></li>
               <li><Link to="/motoCart"><i className="material-icons">shopping_cart</i></Link></li>
               <li><Link to="/motoCart">Moto-Cart</Link></li>
-              <li><Link to="/signup">Signup</Link></li>
+              {
+                // <li><Link to="/signup">Signup</Link></li>
+              }
           </ul>
 
           <ul id="nav-mobile" className="sidenav">
               <li><a href="/">Home</a></li>
               <li><a href="/motoCart">Browse</a></li>
               <li><a href="/motoCart">Moto-Cart</a></li>
-              <li><a href="/signup">Signup</a></li>
+              {
+                // <li><a href="/signup">Signup</a></li>
+              }
           </ul>
           <a href="/" data-target="nav-mobile" className="sidenav-trigger"><i className="material-icons">menu</i></a>
         </article>
